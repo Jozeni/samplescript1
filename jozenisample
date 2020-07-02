@@ -1,0 +1,6 @@
+--[Created by Jozeni00]--
+--[Discord: Jozeni#4484]--
+local UserInputService = game:GetService('UserInputService') --can only be used in local script
+UserInputService.InputEnded:Connect(function(InputObject)) --InputObject is another instance when event fired
+	print("You pressed a button!") --displays message in local output when you press f9 while in-game
+end) --ends the function
